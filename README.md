@@ -21,7 +21,7 @@ A folder that contains a collection of golang files. All go files within a packa
 
 ## Modules
 
-A collection of packages is a module. Starting a new golang project is essentiall just starting a new module.
+A collection of packages is a module. Starting a new golang project is essentially just starting a new module.
 
 ## Starting a new project
 
@@ -91,4 +91,20 @@ func main() {
 }
 ```
 
-###
+## Arrays
+
+Arrays are fixed length, single type, indexable and contiguous in memory.
+
+Look at tutorial files for more concrete syntax examples. Will try to update the README as I go.
+
+## Things I want to learn in Go 
+
+- API / lambda handler construction
+- SQS consumer pattern
+- Containerization + build command flows
+- Testing
+- Productionization of project
+	- linting
+	- formatting
+	- githooks for ^^
+
