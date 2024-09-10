@@ -3,6 +3,8 @@
 Credit to Alex Mux
 https://www.youtube.com/watch?v=8uiZC0l4Ajw
 
+# Pre Reqs
+
 ## GoLang Overview
 
 - Statically Typed Language
@@ -93,9 +95,15 @@ func main() {
 
 ## Arrays
 
-Arrays are fixed length, single type, indexable and contiguous in memory.
+Arrays are fixed length, single type, indexable and contiguous in memory. Elements within an array will always be stored together in memory.
 
-Look at tutorial files for more concrete syntax examples. Will try to update the README as I go.
+## Slices
+
+```
+Slices are just wrappers around arrays. 
+		- Golang Docs
+```
+
 
 ## Things I want to learn in Go 
 
@@ -107,4 +115,8 @@ Look at tutorial files for more concrete syntax examples. Will try to update the
 	- linting
 	- formatting
 	- githooks for ^^
+
+
+Check the tutorial files for more concrete syntax examples. Will try to update the README as I go.
+
 
